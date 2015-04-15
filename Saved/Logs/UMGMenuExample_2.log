@@ -1,0 +1,263 @@
+﻿Log file open, 04/16/15 00:31:18
+LogInit:Display: Running engine for game: UMGMenuExample
+LogInit: Version: 4.7.5-2503383+++depot+UE4-Releases+4.7
+LogInit: API Version: 2455222
+LogInit: Compiled (64-bit): Apr  6 2015 23:21:51
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.7
+LogInit: Command line:  /Temp/Autosaves/Game/Maps/UEDPCMainMenu_Map -game -PIEVIACONSOLE -ResX=1280 -ResY=720  -Multiprocess 
+LogInit: Base directory: C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2015.04.15-19.01.18:335][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2015.04.15-19.01.18:394][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.04.15-19.01.18:414][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.04.15-19.01.18:423][  0]LogInit: Object subsystem initialized
+[2015.04.15-19.01.18:425][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.04.15-19.01.18:425][  0]LogConsoleResponse:Warning:   Found in ini file 'D:/GitHub Repositories/UMGMenuSystem/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.04.15-19.01.18:425][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.04.15-19.01.18:425][  0]LogConsoleResponse:Warning:   Found in ini file 'D:/GitHub Repositories/UMGMenuSystem/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.04.15-19.01.18:425][  0]LogConsoleManager:Warning: Console variable 'r.MSAA.CompositingSampleCount' wasn't set (Priority ProjectSetting < Scalability)
+[2015.04.15-19.01.18:425][  0]LogInit: Selected Device Profile: [Windows]
+[2015.04.15-19.01.18:426][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.04.15-19.01.18:430][  0]LogInit: Computer: PROTEUS_CORE
+[2015.04.15-19.01.18:430][  0]LogInit: User: Rohit
+[2015.04.15-19.01.18:430][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.04.15-19.01.18:430][  0]LogInit: High frequency timer resolution =3.027421 MHz
+[2015.04.15-19.01.18:430][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx) Virtual=8192.0GB
+[2015.04.15-19.01.18:430][  0]LogMemory: Platform Memory Stats for Windows
+[2015.04.15-19.01.18:430][  0]LogMemory: Process Physical Memory: 48.95 MB used, 48.95 MB peak
+[2015.04.15-19.01.18:430][  0]LogMemory: Process Virtual Memory: 26.51 MB used, 26.51 MB peak
+[2015.04.15-19.01.18:430][  0]LogMemory: Physical Memory: 7000.49 MB used, 8136.00 MB total
+[2015.04.15-19.01.18:430][  0]LogMemory: Virtual Memory: 280.78 MB used, 8388608.00 MB total
+[2015.04.15-19.01.18:466][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 660   (Feature Level 11_0)
+[2015.04.15-19.01.18:466][  0]LogD3D11RHI: Adapter has 1989MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 1 output[s]
+[2015.04.15-19.01.18:466][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.04.15-19.01.18:472][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.04.15-19.01.18:482][  0]LogD3D11RHI: Async texture creation enabled
+[2015.04.15-19.01.18:552][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.04.15-19.01.18:609][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:Save_ToolTip):
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-29098895) String: (Saves the current level to disk)
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Engine/en/Engine.locres) Hash: (-1280300587) String: (Save selected data to vlog file)
+[2015.04.15-19.01.18:609][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-630476809) String: (Import to {0}...)
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (1271782899) String: (Imports an asset from file to this folder.)
+[2015.04.15-19.01.18:688][  0]LogContentStreaming: Texture pool size is 200.000000MB
+[2015.04.15-19.01.21:253][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.15-19.01.21:910][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.15-19.01.21:993][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.04.15-19.01.22:033][  0]LogDerivedDataCache: Loaded boot cache 0.04s 39MB C:/Users/Rohit/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.04.15-19.01.22:033][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Rohit/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
+[2015.04.15-19.01.22:033][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/GitHub Repositories/UMGMenuSystem/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.04.15-19.01.22:033][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.04.15-19.01.22:147][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.04.15-19.01.22:159][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Rohit/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.04.15-19.01.22:469][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.04.15-19.01.22:469][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.04.15-19.01.22:809][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.04.15-19.01.23:343][  0]LogWindowsMoviePlayer: Unable to load movie: D:/GitHub Repositories/UMGMenuSystem/Content/Movies/Default_Startup.mp4
+[2015.04.15-19.01.23:523][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.04.15-19.01.23:523][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.04.15-19.01.23:568][  0]SourceControl: Info Source control is disabled
+[2015.04.15-19.01.23:569][  0]SourceControl: Info Source control is disabled
+[2015.04.15-19.01.23:569][  0]SourceControl: Info Source control is disabled
+[2015.04.15-19.01.23:584][  0]SourceControl: Info Source control is disabled
+[2015.04.15-19.01.23:726][  0]LogObj: 23971 objects as part of root set at end of initial load.
+[2015.04.15-19.01.23:726][  0]LogUObjectAllocator: 4988928 out of 0 bytes used by permanent object pool.
+[2015.04.15-19.01.23:811][  0]LogAutomationTest:Warning: ERR: Transient text cannot be serialized "Testing Transient serialization detection".
+[2015.04.15-19.01.23:811][  0]LogEngine: Initializing Engine...
+[2015.04.15-19.01.25:998][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.04.15-19.01.26:042][  0]LogInit: FAudioDevice initialized.
+[2015.04.15-19.01.26:044][  0]LogInit: Texture streaming: Enabled
+[2015.04.15-19.01.26:138][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.04.15-19.01.26:138][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.5-2503383+++depot+UE4-Releases+4.7
+[2015.04.15-19.01.26:138][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.5-2503383+++depot+UE4-Releases+4.7
+[2015.04.15-19.01.26:138][  0]LogAnalytics: SetUserId 013718ab4e6dec0f6374d59520a1ab13|7b8e2bb8b466411588cadfe08ecd7de9|6951b782-1f02-4763-a464-5016cbe33e2c
+[2015.04.15-19.01.26:138][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.04.15-19.01.26:252][  0]LogNet: Browse: /Temp/Autosaves/Game/Maps/UEDPCMainMenu_Map?Name=Player
+[2015.04.15-19.01.26:252][  0]LogLoad: LoadMap: /Temp/Autosaves/Game/Maps/UEDPCMainMenu_Map?Name=Player
+[2015.04.15-19.01.26:262][  0]LogMemory: Platform Memory Stats for Windows
+[2015.04.15-19.01.26:262][  0]LogMemory: Process Physical Memory: 289.72 MB used, 295.22 MB peak
+[2015.04.15-19.01.26:262][  0]LogMemory: Process Virtual Memory: 248.15 MB used, 257.00 MB peak
+[2015.04.15-19.01.26:262][  0]LogMemory: Physical Memory: 7180.29 MB used, 8136.00 MB total
+[2015.04.15-19.01.26:262][  0]LogMemory: Virtual Memory: 668.95 MB used, 8388608.00 MB total
+[2015.04.15-19.01.26:262][  0]LogMemory: 
+[2015.04.15-19.01.26:262][  0]Allocator Stats for TBB: (not implemented)
+[2015.04.15-19.01.26:417][  0]LogLinker:Warning: CreateImport: Object 'StateChanged__DelegateSignature' isn't imported, because its outer is a placeholder. Archive: 'D:/GitHub Repositories/UMGMenuSystem/Content/Blueprints/BP_MainMenuActor.uasset'
+[2015.04.15-19.01.26:736][  0]LogBlueprint:Warning: [WidgetBP_MainMenuScreen] CreatePinForVariable: 'MainMenuSoundtrack' variable not found. Base class was probably changed.
+[2015.04.15-19.01.26:741][  0]LogBlueprint:Warning: [compiler] Warning Could not find a variable named "MainMenuSoundtrack" in 'BP_GameMode_C'.
+Make sure 'BP_GameMode_C' has been compiled for  Get MainMenuSoundtrack 
+[2015.04.15-19.01.26:743][  0]LogBlueprint:Warning: [compiler] Warning [0010.48] Compile of WidgetBP_MainMenuScreen successful, but with 1 Warning(s) [in 5 ms]
+[2015.04.15-19.01.26:743][  0]LogBlueprint:Warning: [compiler] Warning [0010.48] Compile of WidgetBP_MainMenuScreen successful, but with 2 Warning(s) [in 0 ms]
+[2015.04.15-19.01.26:743][  0]LogBlueprint:Warning: [compiler] Warning [0010.48] Compile of WidgetBP_MainMenuScreen successful, but with 3 Warning(s) [in 0 ms]
+[2015.04.15-19.01.26:743][  0]LogBlueprint:Warning: [compiler] Warning [0010.48] Compile of WidgetBP_MainMenuScreen successful, but with 4 Warning(s) [in 0 ms]
+[2015.04.15-19.01.26:915][  0]LogBlueprint:Warning: [WidgetBP_MainMenuScreen] CreatePinForVariable: 'MainMenuSoundtrack' variable not found. Base class was probably changed.
+[2015.04.15-19.01.26:920][  0]LogBlueprint:Warning: [compiler] Warning Could not find a variable named "MainMenuSoundtrack" in 'BP_GameMode_C'.
+Make sure 'BP_GameMode_C' has been compiled for  Get MainMenuSoundtrack 
+[2015.04.15-19.01.26:922][  0]LogBlueprint:Warning: [compiler] Warning [0010.66] Compile of WidgetBP_MainMenuScreen successful, but with 1 Warning(s) [in 5 ms]
+[2015.04.15-19.01.26:922][  0]LogBlueprint:Warning: [compiler] Warning [0010.66] Compile of WidgetBP_MainMenuScreen successful, but with 2 Warning(s) [in 0 ms]
+[2015.04.15-19.01.27:014][  0]LogWorld: Game class is 'BP_GameMode_C'
+[2015.04.15-19.01.27:075][  0]LogAIModule: Creating AISystem for world MainMenu_Map
+[2015.04.15-19.01.27:076][  0]LogWorld: Bringing World /Temp/Autosaves/Game/Maps/UEDPCMainMenu_Map.MainMenu_Map up for play (max tick rate 0) at 2015.04.16-00.31.27
+[2015.04.15-19.01.27:076][  0]LogWorld: Bringing up level for play took: 0.001086
+[2015.04.15-19.01.27:076][  0]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.04.15-19.01.27:081][  0]LogInit:Display: Game Engine Initialized.
+[2015.04.15-19.01.27:347][  0]LogLoad: Full Startup: 11.08 seconds (BP compile: 0.32 seconds)
+[2015.04.15-19.01.27:467][  2]LogRenderer:Warning: Reallocating scene render targets to support 640x360 (Frame:2).
+[2015.04.15-19.01.28:869][ 87]LogNet: Browse: /Game/Maps/PrototypeLevel_Map
+[2015.04.15-19.01.28:869][ 87]LogLoad: LoadMap: /Game/Maps/PrototypeLevel_Map
+[2015.04.15-19.01.28:891][ 87]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000011ECACA0
+[2015.04.15-19.01.28:909][ 87]LogMemory: Platform Memory Stats for Windows
+[2015.04.15-19.01.28:909][ 87]LogMemory: Process Physical Memory: 314.78 MB used, 337.80 MB peak
+[2015.04.15-19.01.28:909][ 87]LogMemory: Process Virtual Memory: 258.70 MB used, 286.95 MB peak
+[2015.04.15-19.01.28:909][ 87]LogMemory: Physical Memory: 7193.31 MB used, 8136.00 MB total
+[2015.04.15-19.01.28:909][ 87]LogMemory: Virtual Memory: 679.14 MB used, 8388608.00 MB total
+[2015.04.15-19.01.28:909][ 87]LogMemory: 
+[2015.04.15-19.01.28:909][ 87]Allocator Stats for TBB: (not implemented)
+[2015.04.15-19.01.28:912][ 87]LogLinker:Warning: CreateImport: Object 'StateChanged__DelegateSignature' isn't imported, because its outer is a placeholder. Archive: 'D:/GitHub Repositories/UMGMenuSystem/Content/Blueprints/BP_InGameActor.uasset'
+[2015.04.15-19.01.29:426][ 87]LogWorld: Game class is 'BP_GameMode_C'
+[2015.04.15-19.01.29:427][ 87]LogAIModule: Creating AISystem for world PrototypeLevel_Map
+[2015.04.15-19.01.29:428][ 87]LogWorld: Bringing World /Game/Maps/PrototypeLevel_Map.PrototypeLevel_Map up for play (max tick rate 0) at 2015.04.16-00.31.29
+[2015.04.15-19.01.29:428][ 87]LogWorld: Bringing up level for play took: 0.000546
+[2015.04.15-19.01.29:428][ 87]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.04.15-19.01.32:353][268]LogNet: Browse: /Game/Maps/MainMenu_Map
+[2015.04.15-19.01.32:354][268]LogLoad: LoadMap: /Game/Maps/MainMenu_Map
+[2015.04.15-19.01.32:383][268]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000011DFB7E0
+[2015.04.15-19.01.32:388][268]LogMemory: Platform Memory Stats for Windows
+[2015.04.15-19.01.32:388][268]LogMemory: Process Physical Memory: 316.07 MB used, 337.80 MB peak
+[2015.04.15-19.01.32:388][268]LogMemory: Process Virtual Memory: 259.59 MB used, 286.95 MB peak
+[2015.04.15-19.01.32:388][268]LogMemory: Physical Memory: 7189.50 MB used, 8136.00 MB total
+[2015.04.15-19.01.32:388][268]LogMemory: Virtual Memory: 684.12 MB used, 8388608.00 MB total
+[2015.04.15-19.01.32:388][268]LogMemory: 
+[2015.04.15-19.01.32:388][268]Allocator Stats for TBB: (not implemented)
+[2015.04.15-19.01.32:539][268]LogLinker:Warning: CreateImport: Object 'StateChanged__DelegateSignature' isn't imported, because its outer is a placeholder. Archive: 'D:/GitHub Repositories/UMGMenuSystem/Content/Blueprints/BP_MainMenuActor.uasset'
+[2015.04.15-19.01.32:843][268]LogBlueprint:Warning: [WidgetBP_MainMenuScreen] CreatePinForVariable: 'MainMenuSoundtrack' variable not found. Base class was probably changed.
+[2015.04.15-19.01.32:849][268]LogBlueprint:Warning: [compiler] Warning Could not find a variable named "MainMenuSoundtrack" in 'BP_GameMode_C'.
+Make sure 'BP_GameMode_C' has been compiled for  Get MainMenuSoundtrack 
+[2015.04.15-19.01.32:851][268]LogBlueprint:Warning: [compiler] Warning [0016.59] Compile of WidgetBP_MainMenuScreen successful, but with 1 Warning(s) [in 6 ms]
+[2015.04.15-19.01.32:851][268]LogBlueprint:Warning: [compiler] Warning [0016.59] Compile of WidgetBP_MainMenuScreen successful, but with 2 Warning(s) [in 0 ms]
+[2015.04.15-19.01.32:851][268]LogBlueprint:Warning: [compiler] Warning [0016.59] Compile of WidgetBP_MainMenuScreen successful, but with 3 Warning(s) [in 0 ms]
+[2015.04.15-19.01.32:851][268]LogBlueprint:Warning: [compiler] Warning [0016.59] Compile of WidgetBP_MainMenuScreen successful, but with 4 Warning(s) [in 0 ms]
+[2015.04.15-19.01.33:018][268]LogBlueprint:Warning: [WidgetBP_MainMenuScreen] CreatePinForVariable: 'MainMenuSoundtrack' variable not found. Base class was probably changed.
+[2015.04.15-19.01.33:023][268]LogBlueprint:Warning: [compiler] Warning Could not find a variable named "MainMenuSoundtrack" in 'BP_GameMode_C'.
+Make sure 'BP_GameMode_C' has been compiled for  Get MainMenuSoundtrack 
+[2015.04.15-19.01.33:025][268]LogBlueprint:Warning: [compiler] Warning [0016.76] Compile of WidgetBP_MainMenuScreen successful, but with 1 Warning(s) [in 5 ms]
+[2015.04.15-19.01.33:025][268]LogBlueprint:Warning: [compiler] Warning [0016.76] Compile of WidgetBP_MainMenuScreen successful, but with 2 Warning(s) [in 0 ms]
+[2015.04.15-19.01.33:114][268]LogWorld: Game class is 'BP_GameMode_C'
+[2015.04.15-19.01.33:118][268]LogAIModule: Creating AISystem for world MainMenu_Map
+[2015.04.15-19.01.33:119][268]LogWorld: Bringing World /Game/Maps/MainMenu_Map.MainMenu_Map up for play (max tick rate 0) at 2015.04.16-00.31.33
+[2015.04.15-19.01.33:119][268]LogWorld: Bringing up level for play took: 0.000901
+[2015.04.15-19.01.33:119][268]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.04.15-19.01.34:670][359]LogEngine: All Windows Closed
+[2015.04.15-19.01.34:671][359]LogWindows: FPlatformMisc::RequestExit(0)
+[2015.04.15-19.01.34:721][360]LogExit: Preparing to exit.
+[2015.04.15-19.01.34:791][360]LogExit: Game engine shut down
+[2015.04.15-19.01.34:841][360]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000D599940
+[2015.04.15-19.01.34:841][360]LogExit: Object subsystem successfully closed.
+[2015.04.15-19.01.34:886][360]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (106)
+[2015.04.15-19.01.35:376][360]LogModuleManager: Shutting down and abandoning module AutomationWorker (105)
+[2015.04.15-19.01.35:376][360]LogModuleManager: Shutting down and abandoning module CharacterAI (104)
+[2015.04.15-19.01.35:376][360]LogModuleManager: Shutting down and abandoning module AITestSuite (103)
+[2015.04.15-19.01.35:376][360]LogModuleManager: Shutting down and abandoning module GameplayDebugger (102)
+[2015.04.15-19.01.35:376][360]LogModuleManager: Shutting down and abandoning module AIModule (101)
+[2015.04.15-19.01.35:376][360]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (100)
+[2015.04.15-19.01.35:376][360]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (99)
+[2015.04.15-19.01.35:376][360]LogModuleManager: Shutting down and abandoning module HTTP (98)
+[2015.04.15-19.01.35:376][360]LogModuleManager: Shutting down and abandoning module AnalyticsET (97)
+[2015.04.15-19.01.35:376][360]LogModuleManager: Shutting down and abandoning module Analytics (96)
+[2015.04.15-19.01.35:376][360]LogModuleManager: Shutting down and abandoning module ProfilerService (95)
+[2015.04.15-19.01.35:514][360]LogModuleManager: Shutting down and abandoning module TaskGraph (94)
+[2015.04.15-19.01.35:514][360]LogModuleManager: Shutting down and abandoning module SlateRemote (93)
+[2015.04.15-19.01.35:514][360]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (92)
+[2015.04.15-19.01.35:514][360]LogModuleManager: Shutting down and abandoning module CableComponent (91)
+[2015.04.15-19.01.35:514][360]LogModuleManager: Shutting down and abandoning module DesktopPlatform (90)
+[2015.04.15-19.01.35:514][360]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (89)
+[2015.04.15-19.01.35:514][360]LogModuleManager: Shutting down and abandoning module HotReload (88)
+[2015.04.15-19.01.35:514][360]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (87)
+[2015.04.15-19.01.35:514][360]LogModuleManager: Shutting down and abandoning module UObjectPlugin (86)
+[2015.04.15-19.01.35:514][360]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (85)
+[2015.04.15-19.01.35:514][360]LogModuleManager: Shutting down and abandoning module GitSourceControl (84)
+[2015.04.15-19.01.35:514][360]LogModuleManager: Shutting down and abandoning module SourceControl (83)
+[2015.04.15-19.01.35:514][360]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (82)
+[2015.04.15-19.01.35:514][360]LogModuleManager: Shutting down and abandoning module BlankPlugin (81)
+[2015.04.15-19.01.35:514][360]LogModuleManager: Shutting down and abandoning module ScriptPlugin (80)
+[2015.04.15-19.01.35:514][360]LogModuleManager: Shutting down and abandoning module UdpMessaging (79)
+[2015.04.15-19.01.35:514][360]LogModuleManager: Shutting down and abandoning module Paper2D (78)
+[2015.04.15-19.01.35:514][360]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (77)
+[2015.04.15-19.01.35:516][360]LogModuleManager: Shutting down and abandoning module Media (76)
+[2015.04.15-19.01.35:516][360]LogModuleManager: Shutting down and abandoning module WmfMedia (75)
+[2015.04.15-19.01.35:516][360]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2015.04.15-19.01.35:516][360]LogModuleManager: Shutting down and abandoning module PropertyEditor (73)
+[2015.04.15-19.01.35:516][360]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (72)
+[2015.04.15-19.01.35:516][360]LogModuleManager: Shutting down and abandoning module FunctionalTesting (71)
+[2015.04.15-19.01.35:516][360]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (70)
+[2015.04.15-19.01.35:516][360]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (69)
+[2015.04.15-19.01.35:516][360]LogModuleManager: Shutting down and abandoning module MessageLog (68)
+[2015.04.15-19.01.35:516][360]LogModuleManager: Shutting down and abandoning module Sequencer (67)
+[2015.04.15-19.01.35:516][360]LogModuleManager: Shutting down and abandoning module AssetTools (66)
+[2015.04.15-19.01.35:516][360]LogModuleManager: Shutting down and abandoning module UMGEditor (65)
+[2015.04.15-19.01.35:516][360]LogModuleManager: Shutting down and abandoning module UMG (64)
+[2015.04.15-19.01.35:516][360]LogModuleManager: Shutting down and abandoning module Slate (63)
+[2015.04.15-19.01.35:516][360]LogModuleManager: Shutting down and abandoning module EditorStyle (62)
+[2015.04.15-19.01.35:521][360]LogModuleManager: Shutting down and abandoning module SessionServices (61)
+[2015.04.15-19.01.35:521][360]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (60)
+[2015.04.15-19.01.35:521][360]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (59)
+[2015.04.15-19.01.35:521][360]LogModuleManager: Shutting down and abandoning module XAudio2 (58)
+[2015.04.15-19.01.35:521][360]LogModuleManager: Shutting down and abandoning module Networking (56)
+[2015.04.15-19.01.35:521][360]LogModuleManager: Shutting down and abandoning module Core (55)
+[2015.04.15-19.01.35:521][360]LogModuleManager: Shutting down and abandoning module KismetCompiler (54)
+[2015.04.15-19.01.35:521][360]LogModuleManager: Shutting down and abandoning module PhysXFormats (53)
+[2015.04.15-19.01.35:521][360]LogModuleManager: Shutting down and abandoning module MeshUtilities (52)
+[2015.04.15-19.01.35:521][360]LogModuleManager: Shutting down and abandoning module DerivedDataCache (51)
+[2015.04.15-19.01.35:649][360]LogDerivedDataCache: Shutdown
+[2015.04.15-19.01.35:649][360]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (50)
+[2015.04.15-19.01.35:649][360]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (49)
+[2015.04.15-19.01.35:649][360]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (48)
+[2015.04.15-19.01.35:649][360]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (47)
+[2015.04.15-19.01.35:649][360]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (46)
+[2015.04.15-19.01.35:649][360]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (45)
+[2015.04.15-19.01.35:649][360]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (44)
+[2015.04.15-19.01.35:649][360]LogModuleManager: Shutting down and abandoning module ImageWrapper (43)
+[2015.04.15-19.01.35:649][360]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (42)
+[2015.04.15-19.01.35:649][360]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (41)
+[2015.04.15-19.01.35:649][360]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (40)
+[2015.04.15-19.01.35:649][360]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (39)
+[2015.04.15-19.01.35:649][360]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (38)
+[2015.04.15-19.01.35:649][360]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (37)
+[2015.04.15-19.01.35:649][360]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (36)
+[2015.04.15-19.01.35:649][360]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (35)
+[2015.04.15-19.01.35:649][360]LogModuleManager: Shutting down and abandoning module Messaging (34)
+[2015.04.15-19.01.35:649][360]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (33)
+[2015.04.15-19.01.35:649][360]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (32)
+[2015.04.15-19.01.35:649][360]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (31)
+[2015.04.15-19.01.35:649][360]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (30)
+[2015.04.15-19.01.35:649][360]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (29)
+[2015.04.15-19.01.35:649][360]LogModuleManager: Shutting down and abandoning module Android_ES31TargetPlatform (28)
+[2015.04.15-19.01.35:649][360]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (27)
+[2015.04.15-19.01.35:649][360]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (26)
+[2015.04.15-19.01.35:649][360]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (25)
+[2015.04.15-19.01.35:649][360]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (24)
+[2015.04.15-19.01.35:649][360]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (23)
+[2015.04.15-19.01.35:649][360]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (22)
+[2015.04.15-19.01.35:649][360]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (21)
+[2015.04.15-19.01.35:649][360]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.04.15-19.01.35:649][360]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.04.15-19.01.35:649][360]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.04.15-19.01.35:649][360]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2015.04.15-19.01.35:649][360]LogModuleManager: Shutting down and abandoning module OculusRift (15)
+[2015.04.15-19.01.35:649][360]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.04.15-19.01.35:649][360]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.04.15-19.01.35:649][360]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.04.15-19.01.35:649][360]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.04.15-19.01.35:649][360]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.04.15-19.01.35:650][360]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.04.15-19.01.35:650][360]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.04.15-19.01.35:650][360]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.04.15-19.01.35:650][360]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.04.15-19.01.35:650][360]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.04.15-19.01.35:650][360]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.04.15-19.01.35:650][360]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.04.15-19.01.35:650][360]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.04.15-19.01.35:650][360]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.04.15-19.01.35:650][360]LogExit: Exiting.
+[2015.04.15-19.01.35:651][360]Log file closed, 04/16/15 00:31:35
