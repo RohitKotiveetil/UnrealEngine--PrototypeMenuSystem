@@ -1,1 +1,0 @@
-../../../UMGMenuExample/UMGMenuExample.uproject 
