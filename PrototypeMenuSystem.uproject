@@ -2,13 +2,5 @@
 	"FileVersion": 3,
 	"EngineAssociation": "4.23",
 	"Category": "",
-	"Description": "",
-	"TargetPlatforms": [
-		"HTML5",
-		"IOS",
-		"LinuxNoEditor",
-		"MacNoEditor",
-		"WindowsNoEditor",
-		"Android"
-	]
+	"Description": ""
 }
